@@ -6,6 +6,7 @@ import { FaGithub } from 'react-icons/fa';
 import {
   MdAccountCircle,
   MdArrowDropDownCircle,
+  MdSearch,
   MdBorderAll,
   MdBrush,
   MdChromeReaderMode,
@@ -72,6 +73,7 @@ const navContents = [
 
 const pageContents = [
   { to: '/login', name: 'login / signup', exact: false, Icon: MdAccountCircle },
+  { to: '/search', name: 'Search', exact: false, Icon: MdSearch },
   {
     to: '/login-modal',
     name: 'login modal',
